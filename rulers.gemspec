@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "rulers"
   gem.require_paths = ["lib"]
   gem.version       = Rulers::VERSION
+  gem.add_development_dependency  "rspec"
+  gem.add_runtime_dependency  "rack"
 end
